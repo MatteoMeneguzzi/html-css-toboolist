@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+  
+}
+
+.container {
+    background-color: #fff;
+    width: 400px;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+   
+    border: 1px solid blue;    
+    background-image: url(.//img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+  }
+
+  .title {
+      display: inline-block;
+  }
+  
